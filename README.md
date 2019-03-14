@@ -23,3 +23,8 @@ Apache + PHP(4.5) + MySql(5.5) + Typecho(1.1)
 [廖先生博客](https://www.tateliao.me/)
 
 ![后台](https://i.loli.net/2019/03/14/5c8a25738705a.png)
+
+#License 许可证
+Open sourced under the MIT License.
+ 
+根据 MIT 许可证开源。
