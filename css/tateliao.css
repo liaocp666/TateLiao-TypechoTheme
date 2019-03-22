@@ -743,6 +743,7 @@ h6 {
     -webkit-transition: all 0.5s ease;
     padding-left: 0;
     transition: all 0.5s ease;
+    overflow-x: hidden;
 }
 
 #wrapper.toggled {
