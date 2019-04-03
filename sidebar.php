@@ -81,7 +81,7 @@
                        title="<?php $comments->title(); ?>">
                         <img class="img-circle img-thumbnail b-lazy"
                              src="<?php $this->options->themeUrl(); ?>img/load.jpg" data-src="<?php echo $avatarUrl; ?>"
-                             alt="<?php _e('评论头像'); ?>"><span><?php echo $text; ?></span>
+                             alt="<?php _e('评论头像'); ?>" width="32px" height="32px"><span><?php echo $text; ?></span>
                     </a></li>
             <?php endwhile; ?>
         </ul>
