@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16b8a42d-530b-40f1-8fb2-98c4926753c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tateliao.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tateliao.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/tateliao.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="745" column="23" selection-start-line="745" selection-start-column="23" selection-end-line="745" selection-end-column="23" />
+            <state relative-caret-position="205">
+              <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="74" column="57" lean-forward="true" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -39,6 +48,9 @@
     <findStrings>
       <find>no-</find>
       <find>wr</find>
+      <find>#wr</find>
+      <find>500</find>
+      <find>500px</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -58,12 +70,12 @@
         <option value="$PROJECT_DIR$/links.php" />
         <option value="$PROJECT_DIR$/page.php" />
         <option value="$PROJECT_DIR$/post.php" />
-        <option value="$PROJECT_DIR$/sidebar.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/.gitgnore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/tateliao.css" />
+        <option value="$PROJECT_DIR$/sidebar.php" />
       </list>
     </option>
   </component>
@@ -141,7 +153,9 @@
       <workItem from="1552566217636" duration="828000" />
       <workItem from="1552611276277" duration="790000" />
       <workItem from="1553086728674" duration="15000" />
-      <workItem from="1553248358478" duration="1143000" />
+      <workItem from="1553248358478" duration="1788000" />
+      <workItem from="1553917831362" duration="312000" />
+      <workItem from="1554297934999" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1552554988323</created>
@@ -213,11 +227,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553248793670</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="解决手机端右侧空白">
+      <created>1553250937613</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1553250937613</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10870000" />
+    <option name="totallyTimeSpent" value="11894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,7 +253,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16641453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1709531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,7 +266,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32733223" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3267974" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -302,7 +323,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="更新README.md" />
     <MESSAGE value="Merge branch 'master' of https://github.com/LeacHar/TateLiao-TypechoTheme&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/LeacHar/TateLiao-TypechoTheme&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="解决手机端右侧空白" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决手机端右侧空白" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/articles.php">
@@ -365,13 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/font.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -396,9 +411,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.project" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -417,8 +430,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/tateliao.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="745" column="23" selection-start-line="745" selection-start-column="23" selection-end-line="745" selection-end-column="23" />
+        <state relative-caret-position="205">
+          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="74" column="57" lean-forward="true" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
         </state>
       </provider>
     </entry>
